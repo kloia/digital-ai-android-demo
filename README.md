@@ -36,7 +36,7 @@ This project includes android test automation codes of device farm integration o
    adb devices
    ```
 
-* Appium must be installed. Appium Desktop installation <a href="https://appium.io/downloads.html">Link to install</a>
+* Appium must be installed. Appium Desktop installation <a href="https://appium.io/downloads.html">link to install</a>
    ```
    You can install it by running the following command from CMD.
    npm install -g appium
