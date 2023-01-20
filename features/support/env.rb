@@ -44,7 +44,7 @@ Allure.configure do |c|
   c.clean_results_directory = true
   c.logger = Logger.new(STDOUT, c.logging_level)
   c.environment_properties = {
-    env: "#{BaseConfig.environment}",
+    build_version: "#{BaseConfig.build_version}",
     release_version: "#{BaseConfig.release_version}",
   }
 end
