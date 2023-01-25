@@ -66,9 +66,13 @@ This project includes android test automation codes of device farm integration o
 
 1. It can be run based on scenario or feature with the green RUN button on the IDE.
 
-3. Run from terminal with scenario or feature tag in project directory:
+2. Run from terminal with scenario or feature tag in project directory:
    
    `cucumber --tag @search`
+
+3. Run parallel from terminal with scenario or feature tag in project directory:
+
+   `ruby cucumber_parallel_run.rb "login"`
 
 
 # Reporting
