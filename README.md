@@ -9,7 +9,7 @@ This project includes android test automation codes of device farm integration o
 * **Allure** Multi-language test report tool
 * **Cucumber** - Gherkin Syntax Framework
 * **RSpec** - Assertion & Validation Framework
-* **Appium** - Mobile APP Test Automation Tool
+* **Appium** - Mobile Test Automation Tool
 * **<a href="https://digital.ai/products/continuous-testing/">digital.ai continuous testing</a>** - Device Farm
 
 # Topic
