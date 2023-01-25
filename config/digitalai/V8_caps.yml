@@ -18,7 +18,7 @@
   newCommandTimeout: 800
   appiumVersion: 1.22.2
 #Docs
-#https://docs:experitest:com/display/TE/Capabilties+in+Appium+Based+Tests:
+#https://docs:experitest:com/display/TE/Capabilties+in+Appium+Based+Tests
 :appium_lib:
   server_url: ""
 

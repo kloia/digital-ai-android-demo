@@ -11,7 +11,7 @@ class DigitalaiApiUtil
     response["keyValuePairs"]["reportUrl"]
   end
 
-  def self.checkUploadApk
+  def self.check_upload_apk
     header =
       { 'Content-Type' => 'application/json', 'Connection' => 'Keep-Alive', 'Authorization' => @auth }
     query = {
@@ -36,7 +36,7 @@ class DigitalaiApiUtil
   end
 
   def self.upload_apk_to_digital_ai
-    check_apk = DigitalaiApiUtil.checkUploadApk
+    check_apk = DigitalaiApiUtil.check_upload_apk
     puts "Check apk status => #{check_apk}"
     if check_apk.empty?
       response = DigitalaiApiUtil.upload_apk(File.open("apps/#{BaseConfig.app_name}_#{BaseConfig.release_version}-#{BaseConfig.build_version}.apk"))
