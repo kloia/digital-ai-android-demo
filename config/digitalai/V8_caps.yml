@@ -1,0 +1,24 @@
+:caps:
+  testName: 'Demo Android Automation'
+  accessKey: ""
+  deviceQuery: "@os='android' and @version='8.0' and @category='PHONE'"
+  app: "cloud:com.ebay.mobile/.activities.MainActivity"
+  platformName: "Android"
+  appPackage: "com.ebay.mobile"
+  appActivity: "com.ebay.mobile.activities.MainActivity"
+  releaseVersion: ""
+  noReset: true
+  fullReset: false
+  automationName: "UiAutomator2"
+  autoWebView: true
+  setWebContentsDebuggingEnabled: true
+  autoAcceptAlerts: true
+  locationServicesEnabled: true
+  autoGrantPermissions: true
+  newCommandTimeout: 800
+  appiumVersion: 1.22.2
+#Docs
+#https://docs:experitest:com/display/TE/Capabilties+in+Appium+Based+Tests:
+:appium_lib:
+  server_url: ""
+
